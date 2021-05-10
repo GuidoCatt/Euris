@@ -1,0 +1,15 @@
+create database valutagb;
+
+use valutagb;
+
+create table articoli(
+id int primary key auto_increment,
+nome varchar(50),
+costo varchar(50)
+);
+
+insert into articoli (nome, costo) values
+("gabinetto", "12p,17s,8d"),
+("bidet", "8p,12s,10d"),
+("doccia", "35p,18s,4d"),
+("lavandino", "10p,9s,8d");
